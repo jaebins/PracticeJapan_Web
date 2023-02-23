@@ -1,0 +1,140 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+a{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none
+}
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+#head-title{
+  cursor: pointer;
+  background-color: #2B3467;
+  padding: 20px;
+  padding-left: 30px;
+  font-family: 'Mynerve', cursive;
+  font-size: 48px;
+  font-weight: bold;
+  color:white;
+}
+
+.neck{
+  display: flex;
+  border: 2px solid gray;
+  background-color: #BAD7E9;
+}
+.neck-category{
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 30px;
+  padding-bottom: 10px;
+}
+#neck-category-title{
+  font-family: 'Mynerve', cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+#neck-category-desc{
+  font-family: 'Mynerve', cursive;
+  font-size: 0px;
+  text-align: center;
+}
+.neck-category:hover > #neck-category-desc{
+  margin-top: 15px;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+
+.body{
+  margin-top: 100px;
+}
+#body-question{
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  border: 1px solid gray;
+  background-color: #FCFFE7;
+  box-shadow: 6px 6px 15px 3px #2B3467;
+}
+.body-user{
+  margin-top: 80px;
+  text-align: center;
+}
+.body-user-option-answel{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+
+  background-color: #c2fbd7;
+  border-radius: 30px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  border: 0;
+}
+.body-select-answel:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+#body-user-write-input{
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+#body-user-write-input:hover{
+  box-shadow: -2px 2px 15px darkblue;
+}
+
+#body-title{
+  padding-top: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.foot{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #EB455F;
+}
+#foot-wordsMap{
+  cursor: pointer;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 25px;
+  font-family: 'Anton', sans-serif;
+  float: right;
+
+	background:linear-gradient(to bottom, #c44659 50%, #91434f 560%);
+	border: none;
+	cursor:pointer;
+	color:#ffffff;
+	text-decoration:none;
+	text-shadow:3px 2px 3px #528ecc;
+}
+#foot-wordsMap:hover {
+	background:linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+	background-color:#80b5ea;
+}
+
